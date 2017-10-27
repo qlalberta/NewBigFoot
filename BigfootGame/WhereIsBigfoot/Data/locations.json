@@ -1,0 +1,677 @@
+[
+    {            
+        "name": "campsite",
+        "title": "Your Campsite",
+        "descriptionFirst": "You are camped in a small clearing in the middle of the Mount Rainier National Forest. Second growth cedars tower above you, and heavy underbrush surrounds your campsite on all sides.You look around and realize that your lantern is missing! You're sure that you left it out here last night, but now you don't see it anywhere.\n\nOh well, it was out of oil anyway, and you're pretty sure that the refill bottle is sitting on your kitchen counter where you left it after forgetting to pack it.",
+        "descriptionLong": "Second growth cedars tower above you, and heavy underbrush surrounds your campsite on all sides. ",
+        "descriptionShort": "You are at your campsite.",
+        "exits": {
+            "north": "tent",
+            "south":  "woods3",
+            "east": "woods1",
+            "in": "tent",
+            "text": "On the north side of the campsite is your tent. Trails leads off through the underbrush to the east."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "campsite",
+            "cedar",
+            "cedars",
+            "clearing",
+            "forest",
+            "lantern",
+            "tent",
+            "trails"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "chasm",
+        "title": "A Deep Chasm",
+        "descriptionFirst": "You move forward towards the gentle breeze on your face. It's definitely still darker than the darkest darkness. You didn't think it was possible, but this part of the cave has even less light than before. It also suddenly lacks a floor. What it doesn’t lack is gravity. There’s plenty of that. Too much gravity. You fall into darkness and never see light again.\n\nGAME OVER",
+        "descriptionLong": "",
+        "descriptionShort": "",
+        "exits": {
+            "empty": null
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": null,
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "danCamp",
+        "title": "Dan's Campsite",
+        "descriptionFirst": "You've found Dan's campsite! Dan is the person who got you into hunting for Bigfoot, years ago when you were both in college. The small area is surrounded by, you guessed it, more trees!\nDan is standing over a small gas camping stove, frying up what looks like about a pound of bacon. A large cooler stands open next to him, and you can see more packages of bacon inside. A small tent is pitched along the west side of the campsite.",
+        "descriptionLong": "You are at Dan's campsite. Dan is standing over a small gas camping stove, frying up bacon. A small tent is pitched along the west side of the campsite.",
+        "descriptionShort": "You are at Dan's campsite.",
+        "exits": {
+            "north": "woods3",
+            "east": "woods4",
+            "text": "Trails lead north and east into the woods."
+        },
+        "characters": {
+            "danCooking": null
+        },
+        "objects": [
+            "book",
+            "cooler",
+            "packages",
+            "pan",
+            "shelter",
+            "stove",
+            "tent"
+        ],
+        "items": {
+            "bacon": null,
+            "grease": null
+        }
+    },
+    {
+        "name": "lakeshore",
+        "title": "The Shore of a Lake",
+        "descriptionFirst": "This lake is huge. It stretches out before you, maybe even too big for you to swim across unless you were being chased by an angry Bigfoot or that last date you picked up from Tindr. Let's face it, some things can motivate you to great feats of prowess. But as it stands, this lake is way too big to swim and you're not that motivated. Hills with trees rise up in the distance to the east, but a soft mist rising from the water hides the opposite shore.",
+        "descriptionLong": "You are on the shore of a huge lake--far too big to swim across. Hills with trees rise up in the distance to the east, but a soft mist rising from the water hides the opposite shore.",
+        "descriptionShort": "You stand on the shore of a large lake.",
+        "exits": {
+            "north": "woods5",
+            "west": "woods2",
+            "text": "Trails lead north along the shore and west into the woods."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "hills",
+            "lake",
+            "mist",
+            "shore",
+            "trail",
+            "trails",
+            "water"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "mountain",
+        "title": "Mountain Trail",
+        "descriptionFirst": "The rough trail goes up (and up, and up) the mountainside. It's steep here, with fewer trees and other plants, but it's not too steep to keep going. You probably won't get to the point of needing to use your hands and feet to climb, but this would be impossible without your new walking stick. It's definitely a workout, so you're pretty sure that this counts as Leg Day. When you pause for a moment to catch your breath, you realize that the view is incredible! You can see north to the towering peak of Mount Rainier, and you can just make out the caldera of Mount St. Helens to the south.",
+        "descriptionLong": "The rough trail goes up the mountainside. It's steep here, with fewer trees and other plants, and the climb would be impossible without your new walking stick.",
+        "descriptionShort": "You are on a rough mountain trail.",
+        "exits": {
+            "east": "tunnel1",
+            "south": "woods5",
+            "text": "A trail leads south into the woods. To the east through the thinning trees, you see a dark cave."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "caldera",
+            "cave",
+            "peak",
+            "plants",
+            "rainier",
+            "trail",
+            "trees",
+            "view"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tent",
+        "title": "Inside Your Tent",
+        "descriptionFirst": "You weren't expecting Dan to call you this week. You made friends with Dan in college, and he was always fun. A hoot, one might say. The kind of friend who'd go out on camping trips looking for Bigfoot. (That qualifies as a hoot, doesn't it?) Once or twice, you even took him up on his invitations to go searching for Bigfoot, because why not? But you weren't expecting him to call you up out of the blue and invite you out for another expedition. It's been years since you both graduated. Say what you will about a guy who goes out looking for Bigfoot, but the man finished college. You figured he'd probably given up the Bigfoot search by now. Apparently not, though.\n\nThose trips were always good for some laughs. You remember them being relaxing, too. So, college or no college anymore, why not? \n\n...okay, the driving directions weren't great, so that's one reason why not. You didn't realize that until you found yourself in the wilderness between Mount Rainier and Mount St. Helens. But eventually you found the spot where Dan said he'd be camping...you think...and so you pitched your tent and sacked out for the night. It's good to have your own tent rather than sharing one with anybody! \n\nNow it's morning. Time to find your old buddy. Or Bigfoot. Hopefully both?\n\nYou are in your tent. Your tent contains your sleeping bag, a change of clothes, a small backpack, and the satisfaction of knowing you can rough it in the great outdoors. Oh, you should probably grab your backpack before you go. And charge your phone. \n\n...Darn. You forgot your phone charger. The outdoors are a nightmare.",
+        "descriptionLong": "Home sweet camping home. Your tent contains a sleeping bag and a change of clothes. There's not much room for anything else.",
+        "descriptionShort": "You are in your tent.",
+        "exits": {
+            "south": "campsite",
+            "out": "campsite",
+            "tent": "campsite",
+            "text": "The tent's entrance points south."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "clothes",
+            "entrance",
+            "floor",
+            "roof",
+            "sleeping bag",
+            "tent"
+        ],
+        "items": {
+            "matches": null,
+            "book": null,
+            "phone": null
+        }
+    },
+    {
+        "name": "tree",
+        "title": "A Tall Cedar Tree",
+        "descriptionFirst": "You climb into the branches of the tall cedar tree. It's easier than when you were a kid. Your arms and legs are longer. You're stronger.\n\nYou're also bigger now. Heavier. So it's really kind of a wash. Speaking of a wash, all this sap on your hands makes you wish you'd packed some wet-naps.\n\nYou feel the tree swaying gently in the wind. You've climbed up about as high as you can without risking breaking a branch and falling. Falling would be bad.",
+        "descriptionLong": "You are high in the branches of a tall cedar tree. You've climbed up about as far as you can without risking breaking a branch and falling. Falling would be bad.",
+        "descriptionShort": "You are high in the branches of a tall cedar tree. You feel the tree swaying gently in the wind.",
+        "exits": {
+            "down": "woods4",
+            "text": "You're not a bird, so the only way out of the tree is down."
+        },
+        "characters": {
+            "octopus": null
+        },
+        "objects": [
+            "branches",
+            "down",
+            "lantern",
+            "sap"
+        ],
+        "items": {
+            "lantern": null
+        }
+    },
+    {
+        "name": "tunnel1",
+        "title": "A Dark Cave",
+        "descriptionFirst": "This doesn't look so bad. You can step inside without having to bend over. You can totally handle this.\n\nWait, no. It gets dark in here fast. You're only a few steps in and it's already really, really dark. Pitch black, in fact. All kinds of nasty things could be lurking in the darkness. Like grues.\n\nRemember that Doctor Who episode about the swarms of tiny things that live in the darkness and like to eat people? No? Well, a grue is like that. Except they're not tiny, and they're solitary hunters. Most people don't believe they exist, but you've studied some cryptozoology, and you know better. And you're in their favorite habitat: darkness. If you decide you're feeling brave, you could probably follow the cave wall and go deeper into the cave.",
+        "descriptionLong": "You are in a cave. It too dark to see anything around you. You may be eaten by a grue.",
+        "descriptionShort": "You are in a dark cave. It too dark to see anything around you. You may be eaten by a grue.",
+        "exits": {
+            "east": "tunnel2",
+            "west": "mountain",
+            "deeper": "tunnel2",
+            "text": "The entrance to the cave is faintly visible to the west."
+        },
+
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "dark",
+            "darkness",
+            "light",
+            "grue"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel2",
+        "title": "A Dark Cave",
+        "descriptionFirst": "Ah. Now you've found the spiders. Or at least you've found their webs. They're all over your face. You frantically brush the webs away, then think about how there might be spiders on your shoulders and brush those. Then you vigorously brush your hair. Oh no! What if you brushed a spider out of your hair and onto your shoulders? You brush your shoulders again just to be sure!\n\nNothing bites you. At least, nothing you've felt yet. Hopefully nothing bit you with a slow-acting poison, either. It's even darker in here. You're pretty sure that's because of physics and not because of poison. Also, you let go of the wall to brush off the spiders, although you find it again after all the dancing around.",
+        "descriptionLong": "You are in a cave. It is too dark to see. You may be eaten by a grue.",
+        "descriptionShort": "You are in a cave. It is too dark to see. You may be eaten by a grue.",
+        "exits": {
+            "east": "tunnel3",
+            "west": "tunnel1",
+            "forward": "tunnel3",
+            "back": "tunnel1",
+            "on": "tunnel3",
+            "text": "You've lost track of which direction you're facing."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "dark",
+            "darkness",
+            "grue"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel3",
+        "title": "A Dark Cave",
+        "descriptionFirst": "For all you know, this tunnel may hold a black hole. It's certainly dark enough. As you stumble your way forward, you feel a breath of air blowing gently in your face. It is dark here. You may be eaten by a grue.",
+        "descriptionLong": "You are in a cave. A breath of air blows gently at your face. It is too dark to see. You may be eaten by a grue.",
+        "descriptionShort": "You are in a dark cave. It is too dark to see. You may be eaten by a grue.",
+        "exits": {
+            "north": "tunnel4",
+            "west": "tunnel2",
+            "forward": "chasm",
+            "back": "tunnel2",
+            "left": "tunnel4",
+            "text": "You have no idea what direction you're going."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "dark",
+            "darkness",
+            "grue"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel4",
+        "title": "A Dark Cave",
+        "descriptionFirst": "You move on, stumbling a little and banging your head in the dark. Ouch!\n\nIt's still way too dark to see anything. You could pass the time as you stumble around trying to think up new words for dark. Like, say, inky, or pitch-black. Or hey: tenebrous. That's a good one! This cave is all of those things.\n\nYep. You still can't see a thing. You crouch down low, hoping to avoid any further head injuries.",
+        "descriptionLong": "You are in a cave. It is too dark to see. You may be eaten by a grue.",
+        "descriptionShort": "You are in a cave. It is too dark to see. You may be eaten by a grue.",
+        "exits": {
+            "north": "tunnel5",
+            "south": "tunnel3",
+            "forward": "tunnel5",
+            "back": "tunnel3",
+            "on": "tunnel5",
+            "text": "You can't really tell what direction you're heading."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "dark",
+            "darkness",
+            "inkiness",
+            "pitch-black",
+            "tenebrosity"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel5",
+        "title": "A Dark Cave",
+
+        "descriptionFirst": "Even though it's still way too dark to see anything,  there's a light at the end of this tunnel! You're sure it's not an hallucination. Or a trap. Okay, pretty sure. Reasonably sure.",
+        "descriptionLong": "You are in a cave. It is too dark to see, although a faint light is visible in the distance. You may be eaten by a grue.",
+        "descriptionShort": "You are in a cave. It is too dark to see. You may be eaten by a grue.",
+
+        "exits": {
+            "north": "valley",
+            "south": "tunnel4",
+            "forward": "valley",
+            "back": "tunnel4",
+            "text": "You can see a dim light from what you think is north. The passage runs south away from it. You think."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "dark",
+            "darkness",
+            "grue",
+            "light"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel1Lit",
+        "title": "Cave Passageway",
+        "descriptionFirst": "This doesn't look so bad. No glowing red eyes stare at you from the shadows. There don't seem to be any spiders. You don't even hear anything go 'squish!' with each step. The floor is covered with sandy dirt, and the rock walls curve inward to form a kind of arch just above your head. You can totally handle this.\n\nIt's dark in here, though. You're only a little way from the entrance, but the only light comes from your lantern. Wow are you ever glad you have one!",
+        "descriptionLong": "You are in a tunnel-like cave. The floor is covered with sandy dirt, and the rock walls curve in to meet just above your head. Your lantern illuminates the area around you in a soft yellow glow.",
+        "descriptionShort": "You are in a tunnel-like cave.",
+        "exits": {
+            "east": "tunnel2Lit",
+            "west": "mountain",
+            "back": "mountain",
+            "forward": "tunnel2Lit",
+            "on": "tunnel2Lit",
+            "text": "You could leave the cave by going west, and the path east goes deeper into the cave."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "floor",
+            "walls",
+            "rock",
+            "darkness",
+            "dark",
+            "dirt",
+            "sand",
+            "path"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel2Lit",
+        "title": "Cave Passageway",
+        "descriptionFirst": "The ceiling in this part of the cave is covered with wispy spider webs that sway gently in the air. Fortunately, you can see well enough to duck under the trailing webs, so you don't have to do a personal reenactment of that scene from Raiders of the Lost Ark. You know, the one where Indy's guide gets covered by tarantulas? Not that there are tarantulas in the Pacific Northwest, but you'd rather not be covered with spiders of ANY size.",
+        "descriptionLong": "You are in a tunnel-like cave. The floor is covered with sandy dirt, and the rock walls curve in to meet just above your head. The ceiling is covered with wispy spider webs. Your lantern illuminates the area around you in a soft yellow glow. ",
+        "descriptionShort": "You are in a tunnel-like cave.",
+        "exits": {
+            "east": "tunnel3Lit",
+            "west": "tunnel1Lit",
+            "forward": "tunnel3Lit",
+            "back": "tunnel1Lit",
+            "on": "tunnel3Lit",
+            "text": "The path through the cave goes east and west."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "ceiling",
+            "dark",
+            "darkness",
+            "dirt",
+            "floor",
+            "path",
+            "rock",
+            "sand",
+            "spider webs",
+            "webs",
+            "web",
+            "spiders",
+            "spiderwebs",
+            "walls"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel3Lit",
+        "title": "Edge of a Chasm",
+        "descriptionFirst": "As you move on, you realize that the floor of the cave drops away in front of you into a deep chasm. A breath of air flows up from the chasm and blows gently in your face. You kick a couple of pebbles over the edge and listen to them bounce down side of the steep drop. For a very long time. Luckily, you see an opening into another passage.",
+        "descriptionLong": "You are in a tunnel-like cave. The floor is covered with sandy dirt, and the rock walls curve in to meet just above your head. A deep chasm blocks the way to the east. A breath of air flows up from the chasm and blows gently in your face. Your lantern illuminates the area around you in a soft yellow glow.",
+        "descriptionShort": "You are in a tunnel-like cave",
+        "exits": {
+            "north": "tunnel4Lit",
+            "west": "tunnel2Lit",
+            "left": "tunnel4Lit",
+            "text": "The path you're on goes off to the west, and another passage goes north."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "ceiling",
+            "chasm",
+            "dark",
+            "darkness",
+            "dirt",
+            "floor",
+            "path",
+            "pebble",
+            "pebbles",
+            "rock",
+            "sand",
+            "walls"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel4Lit",
+        "title": "Cave Passageway",
+        "descriptionFirst": "You already feel better about this path. Not because it's any brighter. It isn't. But at no point do you lose anything important like the floor or your sense of direction. Even though you're not sure what's ahead, you remember how far you've gone and which direction you're facing. Also, you ducked a low-hanging part of the tunnel without banging yourself or the lantern on anything. There's probably a merit badge for this.",
+        "descriptionLong": "You are in a tunnel-like cave. The floor is covered with sandy dirt, and the rock walls curve in to meet just above your head. Your lantern illuminates the area around you in a soft yellow glow. Ahead of you, to the north, you can see a faint light.",
+        "descriptionShort": "You are in a tunnel-like cave.",
+        "exits": {
+            "north": "tunnel5Lit",
+            "south": "tunnel3Lit",
+            "text": "The path leads north and south."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "ceiling",
+            "dark",
+            "darkness",
+            "dirt",
+            "floor",
+            "path",
+            "rock",
+            "sand",
+            "walls"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "tunnel5Lit",
+        "title": "Cave Passageway",
+        "descriptionFirst": "There's a light at the end of this tunnel! The warm glow of yellow light from your lantern is definitely getting an assist from some honest-to-goodness sunshine coming in from the north. You're kind of sick of caves at this point, and are looking forward to air that doesn't smell like rocks.",
+        "descriptionLong": "You are in a tunnel-like cave. The floor is covered with sandy dirt, and the rock walls curve in to meet just above your head. Your lantern illuminates the area around you in a soft yellow glow. To the north, you can see faintly see daylight.",
+        "descriptionShort": "You are in a tunnel-like cave.",
+        "exits": {
+            "north": "valley",
+            "south": "tunnel4Lit",
+            "text": "The path leads north and south."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "ceiling",
+            "dark",
+            "darkness",
+            "dirt",
+            "floor",
+            "light",
+            "path",
+            "rock",
+            "sand",
+            "walls"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "valley",
+        "title": "A Remote Mountain Valley",
+        "descriptionFirst": "The light grows from dim to welcoming, and from welcoming to bright. It takes your eyes a moment to adjust. A valley comes into focus, filled with lush green trees and singing birds. Squirrels. Raccoons. Forest stuff. Bigfoot.",
+        "descriptionLong": "You are in a secluded mountain valley, filled with lush green trees and singing birds. Animals rustle in the underbrush.",
+        "descriptionShort": "You are in a secluded mountain valley.",
+        "exits": {
+            "south": "tunnel5",
+            "text": "To the south is a dark cave."
+        },
+        "characters": {
+            "bigfootHostile": null
+        },
+        "objects": [
+            "birds",
+            "raccoon",
+            "raccoons",
+            "squirrel",
+            "squirrels",
+            "stuff",
+            "trees"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "woods1",
+        "title": "A Trail in the Woods",
+        "descriptionFirst": "Dan said you'd be camping out in the woods, and here they are. Yup. Woods. It's very woodsy. You see trees everywhere, and where you don't see trees, you see bushes. Tall trees, short bushes, vice versa, all of it. The birds are singing, too, but it's a little distant. What really makes an impact is the silence. You don't hear cars or music or the sound of a ventilation system. You only hear the soft breeze through the trees. Apparently, this is what people had to work with to get away from it all before they invented noise-canceling headphones.",
+        "descriptionLong": "You are in the woods. It's very quiet and peaceful here. Lots of trees, bushes, and other woodsy things.",
+        "descriptionShort": "You are in the woods.",
+        "exits": {
+            "north": "woods5",
+            "east": "woods2",
+            "south": "woods3",
+            "west": "campsite",
+            "text": "You are pretty sure that you could get back to your campsite by following the trail to the west. Other trails lead north, south, and east."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "birds",
+            "branches",
+            "breeze",
+            "bush",
+            "bushes",
+            "silence",
+            "things",
+            "trails",
+            "tree",
+            "trees",
+            "woods"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "woods2",
+        "title": "A Forest Clearing",
+        "descriptionFirst": "At some point, a tree fell, leaving something of an open space in the forest. A huge mass of blackberry bushes has grown up and around the stump on the west end of the clearing. You hear the buzzing of bees as they bumble around in the warm sunlight streaming through the broken canopy. A glint of water can be seen through the trees to the north.",
+        "descriptionLong": "At some point, a tree fell, leaving something of an open space in the forest. You hear the buzzing of bees as they bumble around. A glint of water can be seen through the trees to the north.",
+        "descriptionShort": "You are in a bramble-filled clearing in the woods.",
+        "exits": {
+            "north": "lakeshore",
+            "south": "woods3",
+            "west": "woods1",
+            "text": "Trails lead north, south, and west."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "bees",
+            "brambles",
+            "branches",
+            "canopy",
+            "stump",
+            "sunlight",
+            "trail",
+            "trails",
+            "tree",
+            "trees",
+            "vines",
+            "water",
+            "woods"
+        ],
+        "items": {
+            "walking stick": null,
+            "blackberries": null
+        }
+    },
+    {
+        "name": "woods3",
+        "title": "A Trail in the Woods",
+        "descriptionFirst": "It's a good thing that you like trees, because these woods are full of them! It's also a rainforest, which calls for a certain amount of dampness everywhere, but you're from Seattle--you're used to that. Something is different here, though.\n\nYou look around. Trees: check. Birds singing in the trees: Check. Scent of bacon on the breeze--Wait, what?\n\nYou take a deep breath. Yep. The scent of bacon is wafting from the south.",
+        "descriptionLong": "You are on a trail in the woods. Very little sunlight is penetrating the trees here, so the whole area is a bit damp. The scent of bacon is wafting from the south.",
+        "descriptionShort": "You are on a trail in the woods.",
+        "exits": {
+            "north": "woods2",
+            "east": "woods4",
+            "south": "danCamp",
+            "west": "woods1",
+            "text": "Trails lead north, south, east, and west through the woods."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "bird",
+            "birds",
+            "branches",
+            "breeze",
+            "dampness",
+            "silence",
+            "things",
+            "trail",
+            "trails",
+            "tree",
+            "trees",
+            "woods"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "woods4",
+        "title": "Below a Huge Cedar",
+        "descriptionFirst": "Most of the woods around here are pretty similar. Trees, undergrowth, birds singing, that sort of thing. This place is a little different, because a HUGE cedar tree dominates the puny, normal-sized trees around it.\n\nThe cedar tree is tall and strong, with plenty of branches thick enough for climbing. It also has plenty of foliage. No going bare for winter on a tree like this. This tree is green forever. Ever…evergreen? Or is that a different kind of tree? Nature is so confusing. Anyway, you're pretty sure it's a cedar. That'll do for now. Oh, and there's something rustling around in the branches.",
+        "descriptionLong": "A massive, old-growth cedar tree dominates this part of the woods. You've seen old pictures of lumberjacks dwarfed by the trunks of old-growth timber, but you've never seen a tree this big before with your own eyes. It's enormous!",
+        "descriptionShort": " A massive, old-growth cedar tree dominates this part of the woods.",
+        "exits": {
+            "up": "tree",
+            "south": "danCamp",
+            "west": "woods3",
+            "text": "Trails lead south and west"
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "branches",
+            "cedar tree",
+            "cedar",
+            "foliage",
+            "huge cedar",
+            "huge tree",
+            "rustling",
+            "trail",
+            "trails",
+            "tree",
+            "trees",
+            "trunk",
+            "woods"
+        ],
+        "items": {
+            "empty": null
+        }
+    },
+    {
+        "name": "woods5",
+        "title": "An Uphill Trail",
+        "descriptionFirst": "The trail starts to go uphill a bit, and the woods are thinning out to the north as the trail climbs up into the mountains. The merrily singing birds seem to mock the  ache in your legs from the increasing incline. A glint of water can be seen through the trees to the east.",
+        "descriptionLong": " The trail  starts to go uphill a bit, and the woods are thinning out to the north as the trail climbs up into the mountains A glint of water can be seen through the trees to the east",
+        "descriptionShort": "You are on an uphill trail in the woods.",
+        "exits": {
+            "north": "mountain",
+            "south": "woods1",
+            "east": "lakeshore",
+            "up": "mountain",
+            "down": "woods1",
+            "text": " Trails go north, east, and south."
+        },
+        "characters": {
+            "empty": null
+        },
+        "objects": [
+            "bird",
+            "birds",
+            "dampness",
+            "glint",
+            "incline",
+            "silence",
+            "things",
+            "trail",
+            "trails",
+            "tree",
+            "trees",
+            "water",
+            "woods"
+        ],
+        "items": {
+            "empty": null
+        }
+    }
+
+]

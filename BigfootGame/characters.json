@@ -1,0 +1,77 @@
+[
+	{
+		"name": "danCooking",
+    "parseValue": [
+      "dan",
+      "friend",
+      "dude"
+    ],
+		"descriptionShort": "Dan is cooking bacon at a small camp stove and humming to himself.",
+		"descriptionLong": "Dan is a tall white dude with shaggy brownish hair. He is wearing ripped up jeans and a faded henley under and old red trail jacket. Dan is humming to himself while he cooks bacon over his camp stove.",
+    "actions": {
+      "get": "",
+      "talk": "Dan smiles at you, but is busy with what he's doing.",
+      "give": ""
+    }
+	},
+  {
+		"name": "danReading",
+    "parseValue": [
+      "dan",
+      "friend",
+      "dude"
+    ],
+		"descriptionShort": "You see Dan here, reading and cooking bacon.",
+		"descriptionLong": "Dan is a tall white dude with shaggy brownish hair. He is wearing ripped up jeans and a faded henley under and old red trail jacket. Dan is muttering to himself while he reads and cooks bacon over his camp stove.",
+    "actions": {
+      "get": "",
+      "talk": "Dan smiles at you, but is busy with what he's doing.",
+      "give": ""
+    }
+	},
+	{
+		"name": "octopus",
+    "parseValue": [
+      "octopus",
+      "tree octopus",
+      "cephalopod",
+      "octo"
+    ],
+		"descriptionShort": "You see a Pacific Northwest tree octopus here, coiled around your missing camping lantern.",
+		"descriptionLong": "The Pacific Northwest tree octopus (Octopus paxarbolis) is a small cephalopod with brown skin that is mottled with green and white--perfect camouflage for hiding in a Pacific Northwest rainforest. They're an endangered species, and you've never heard of one living in this part of the state. Maybe this is a new species! The octopus' tentacles are coiled around your missing camping lantern.",
+		"target": "",
+    "actions": {
+      "get": "You try to grab the octopus, but it tentaclates (is that the right word?) up higher in the tree. When you try to climb after it, the branches creak ominously, so you return to the lower, stronger branches.",
+      "talk": "You think that talking to the octopus might do some good. You're not sure what to say. What is it they advise with scared animals? It's not what you say, but how you say it in a calming voice?\n\nYou recite the first twenty lines of Charge of the Light Brigade to the octopus.\n\nIt doesn't respond.\n\nEveryone's a critic.",
+      "give": ""
+    }
+	},
+	{
+		"name": "bigfootHostile",
+    "parseValue": [
+      "bigfoot",
+      "sasquatch"
+    ],
+		"descriptionShort": "",
+		"descriptionLong": "",
+    "actions": {
+      "get": "",
+      "talk": "",
+      "give": ""
+    }
+	},
+  {
+		"name": "bigfootFriendly",
+    "parseValue": [
+      "bigfoot",
+      "sasquatch"
+    ],
+		"descriptionShort": "",
+		"descriptionLong": "",
+    "actions": {
+      "get": "",
+      "talk": "",
+      "give": ""
+    }
+	}
+]

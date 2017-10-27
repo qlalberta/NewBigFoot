@@ -1,0 +1,90 @@
+[
+    {
+        "name": "danCooking",
+        "title": "Dan",
+        "location": "danCamp",
+        "parseValue": [
+            "dan",
+            "friend",
+            "dude"
+        ],
+        "descriptionFirst": "Dan is a tall white dude with shaggy brownish hair. As far as you can tell, he hasn't changed much since college--he's still wearing ripped up jeans and a faded henley under an old red trail jacket. Dan is humming to himself while he cooks bacon over his camp stove.",
+        "descriptionLong": "Dan is a tall white dude with shaggy brownish hair. He is wearing ripped up jeans and a faded henley under and old red trail jacket. Dan is humming to himself while he cooks bacon over his camp stove.",
+        "descriptionShort": "Dan is cooking bacon at a small camp stove and humming to himself. ",
+        "actions": {
+            "get": "",
+            "talk": "Dan smiles at you, but is busy with what he's doing."
+        }
+    },
+    {
+        "name": "danReading",
+        "title": "Dan",
+        "location": "",
+        "parseValue": [
+            "dan",
+            "friend",
+            "dude"
+        ],
+        "descriptionFirst": "FIRST DESCRIPTION: None.",
+        "descriptionLong": "Dan is a tall white dude with shaggy brownish hair. He is wearing ripped up jeans and a faded henley under and old red trail jacket. Dan is muttering to himself while he reads and cooks bacon over his camp stove.",
+        "descriptionShort": "You see Dan here, reading and cooking bacon. ",
+        "actions": {
+            "get": "",
+            "talk": "Dan looks up from the book and smiles at you. \"Thanks again, man!\" he says. \"I'm not done reading; You can go on without me.\""
+                
+        }
+    },
+    {
+        "name": "octopus",
+        "title": "Pacific Northwest tree octopus",
+        "location": "tree",
+        "parseValue": [
+            "octopus",
+            "tree octopus",
+            "cephalopod",
+            "octo"
+        ],
+        "descriptionFirst": "There is a Pacific Northwest tree octopus clinging to the branches above you. They're an endangered species, and you've never heard of one living in this part of the state. Maybe this is a new species!\n\nThe octopus' tentacles are coiled around your missing camping lantern. It must have stolen the lantern during the night!",
+        "descriptionShort": "You see a Pacific Northwest tree octopus here. Its tentacles are coiled around your missing camping lantern. ",
+        "descriptionLong": "The Pacific Northwest tree octopus (Octopus paxarbolis) is a small cephalopod with brown skin that is mottled with green and white--perfect camouflage for hiding in a Pacific Northwest rainforest. Because of its location in this part of the state, you suspect this might be a new species. Its tentacles are coiled possessively around your camping lantern.",
+        "target": "",
+        "actions": {
+            "get": "You try to grab the octopus, but it tentaclates (is that the right word?) up higher in the tree. When you try to climb after it, the branches creak ominously, so you return to the lower, stronger branches.",
+            "talk": "You think that talking to the octopus might do some good. You're not sure what to say. What is it they advise with scared animals? It's not what you say, but how you say it in a calming voice?\n\nYou recite the first twenty lines of Charge of the Light Brigade to the octopus.\n\nIt doesn't respond.\n\nEveryone's a critic."
+        }
+    },
+    {
+        "name": "bigfootHostile",
+        "title": "Bigfoot",
+        "location": "valley",
+        "parseValue": [
+            "bigfoot",
+            "sasquatch"
+        ],
+        "descriptionFirst": "Holy cow! THAT'S BIGFOOT! That's really Bigfoot for real! Really!\n\nAlso really hairy, or maybe that's fur, but it's brown and straight and covers from head to feet. And Bigfoot is…really big. Maybe eight feet tall sort big. Or nine? It's hard to tell from here. You can't tell if Bigfoot is male or female from here, either. You start walking closer.\n\nBigfoot doesn't notice you at first, seeming to be absorbed in picking something out of a bush. You get a little closer to the edge of the clearing. Then, as you're still taking in the sight of someone so tall and so animal-like but also so human, you step on a fallen twig. It's the kind that snaps loudly--because of course it is.\n\nYou stop cold as Bigfoot turns to look. Big eyes stand out on a face with dark features, maybe the only parts of the creature not covered in fur besides those huge hands. Then that dark brow grows darker. Bigfoot grunts. Snarls. And then starts moving closer. Stomping, really, in long, angry strides.\n\nOh, hey. It's true. It's totally true. Bigfoot has REALLY BIG FEET. And is also angry. Really angry.\n\nWait, what are you supposed to do about an angry Bigfoot? Can you talk your way out of this? Does Bigfoot even understand English? Probably not. Either way, you'd better do something pretty quickly!",
+        "descriptionShort": "Bigfoot is here, and he looks really, really angry. You'd better do something, fast! ",
+        "descriptionLong": "You are too late bigfoot is too close for you to make any decisions sorry it has to end this way\n\n****************************************\n\nGAME OVER!!\n\n****************************************",
+        "actions": {
+            "get": "",
+            "talk": "",
+            "give": ""
+        }
+    },
+    {
+        "name": "bigfootFriendly",
+        "title": "Bigfoot",
+        "location": "",
+        "parseValue": [
+            "bigfoot",
+            "sasquatch"
+        ],
+        "descriptionFirst": "",
+        "descriptionShort": "",
+        "descriptionLong": "You pull your backpack from your shoulders and drop it to your feet quickly. Bigfoot keeps coming, and wow can those feet cover ground fast. There may not be time for a second chance here. This had better work.\n\nWith shaking hands, you pull the can of blackberries from your backpack and hold it up. You're shaking so hard that one of those blackberries jumps out. The sight of it brings Bigfoot to a halt only another step out of arm's reach. Now that you're close up, you realize just how small you are in comparison. Bigfoot is maybe half again as tall as you. Those eyes look down at you, and at your can of blackberries.\n\nBigfoot's head tilts curiously. A hand reaches out, easily big enough to palm your whole face like a basketball, and gently taps the edge of the can. It's almost like a question, or maybe asking for permission?\n\n\"Go ahead,\" you say steadily. It's important to speak steadily. Everyone you ever heard talk on television about calming wild animals says so. \"You can take some. It's okay.\"\n\nGingerly, Bigfoot plucks a blackberry out of the can, sniffs it, and eats it. You see a moment of consideration cross those dark features. Then Bigfoot reaches again.\n\n\"Or, you can take the whole can,\" you say after it's already out of your hands and Bigfoot is chowing down. \"Go for it. Knock yourself out.\"\n\nWow. Not only are you the first person to discover Bigfoot, you're also the first person to get salty with Bigfoot. Go, you!\n\nBigfoot doesn't seem to mind the commentary. You sense a complete change of attitude. Where all that body language said \"smash\" and \"stomp\" and \"kill\" a minute ago, Bigfoot's posture seems to have turned to, \"We're cool.\" Those eyes look at you with much kinder regard now. Bigfoot even leans in to sniff you closely. No biting, no smashing, just a sniff.\n\nThen Bigfoot straightens up again. You're not sure what that look is supposed to mean. Clearly you aren't in trouble, because you don't see any anger or fear, but you're wondering how you smell. Once again, you're reminded you haven't showered today. That's a thing that doesn't always happen when you're camping. Bigfoot doesn't seem to think you smell great, but apparently you're at least tolerable. For a brief moment, camping is just like being at the office.\n\nOh, right! The office! And Dan! And the rest of the world! Nobody's gonna believe this without proof. You reach for your phone, eager to see this selfie turn you into a viral sensation and…and…and your phone is still dead. Wow. This whole \"dead cell phone\" thing is the WORST.\n\nYou hang out with Bigfoot for a while, trying to communicate beyond the simplest of gestures. Pointing and nudging seems to work, but not much else. It turns out Bigfoot was foraging for blackberries. There are some cool spots for it here in this valley. Bigfoot shows you all the best bushes.\n\nUnfortunately, it'll be dark soon, and you need to find your way back while you can still find your way. Bigfoot doesn't seem too interested in following. You'll have to head back on your own. Without a picture or video, you don't have anything to prove your discovery, but you now know the truth about Bigfoot.\n\nThe truth is, Bigfoot is pretty cool.\n\n****************************************\n\nCONGRATULATIONS YOU FOUND BIGFOOT!!\n\n****************************************",
+        "actions": {
+            "get": "",
+            "talk": "",
+            "give": ""
+        }
+    }
+]

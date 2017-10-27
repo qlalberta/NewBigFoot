@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsBigfoot", "WhereIsBigfoot\WhereIsBigfoot.csproj", "{2C5F2C86-A298-4698-8492-51D9B16924FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsBigfootTests", "WhereIsBigfootTests\WhereIsBigfootTests.csproj", "{D58E17CA-1B50-4400-90CD-F6169B4AA095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5F2C86-A298-4698-8492-51D9B16924FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5F2C86-A298-4698-8492-51D9B16924FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5F2C86-A298-4698-8492-51D9B16924FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5F2C86-A298-4698-8492-51D9B16924FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58E17CA-1B50-4400-90CD-F6169B4AA095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58E17CA-1B50-4400-90CD-F6169B4AA095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58E17CA-1B50-4400-90CD-F6169B4AA095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58E17CA-1B50-4400-90CD-F6169B4AA095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB4E955-7A24-4E1B-BD0A-64877C39722E}
+	EndGlobalSection
+EndGlobal

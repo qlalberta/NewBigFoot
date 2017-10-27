@@ -1,0 +1,251 @@
+[
+    {
+        "name": "campsite",
+        "locationFirst": "You are camped in a small clearing in the middle of the Mount Rainier National Forest. Second growth cedars tower above you, and heavy underbrush surrounds your campsite on all sides. On the north side of the campsite is your tent. \n\nYou look around and realize that your lantern is missing! You're sure that you left it out here last night, but now you don't see it anywhere. \n\nOh well, it was out of oil anyway, and you're pretty sure that the refill bottle is sitting on your kitchen counter where you left it after forgetting to pack it. \n\nTrails lead off through the underbrush to the south, east, and west.",
+        "locationLong": "Second growth cedars tower above you, and heavy underbrush surrounds your campsite on all sides. On the north side of the campsite is your tent. Trails lead off through the underbrush to the south, east, and west.",
+        "locationShort": "You are at your campsite.",
+        "exits": {
+            "north": "tent",
+            "south": "woods3",
+            "east": "woods1"
+        },
+        "characters": "",
+        "objects": [
+            "clearing",
+            "cedars",
+            "campsite",
+            "trails",
+            "forest"
+        ],
+        "items": ""
+    },
+    {
+        "name": "dan",
+        "locationFirst": "You've found Dan's campsite! Dan is the person who got you into hunting for Bigfoot, years ago when you were both in college. In fact, he hasn't changed much since college--he's still wearing ripped up jeans and a faded henley under an old red trail jacket. Dan is standing over a small gas camping stove, frying up what looks like about a pound of bacon. A large cooler stands open next to him, and you can see more packages of bacon inside. Next to the stove is a tin can.  A small tent is pitched along the west side of the campsite.  Trails lead north and south into the woods.",
+        "locationLong": "You are at Dan's campsite.  Trails lead north and south into the woods.\n\nAFTER GIVING HIM THE BOOK:\nYou are at Dan's campsite. Dan is sitting next to his camp stove, and is engrossed in reading the book you gave him. Trails lead north and south into the woods.",
+        "locationShort": "You are at Dan's campsite.",
+        "exits": {
+            "north": "woods3",
+            "south": "woods4"
+        },
+        "characters": "Dan",
+        "objects": [
+
+            "stove", "pan", "shelter"
+        ],
+        "items": {
+          "bacon": "",
+          "grease": ""
+        }
+    },
+    {
+        "name": "lakeshore",
+        "locationFirst": "This lake is huge. It stretches out before you, maybe even too big for you to swim across unless you were being chased by an angry Bigfoot or that last date you picked up from Tindr. Let's face it, some things can motivate you to great feats of prowess. But as it stands, this lake is way too big to swim and you're not that motivated. Hills with trees rise up in the distance, but from here you can't see the opposite shore.\n\nTrails lead north along the lakeshore and west into the woods.\n",
+        "locationLong": "Trails lead north along the lake and west into the woods.",
+        "locationShort": "You stand on the shore of a large lake.",
+        "exits": {
+            "north": "woods5",
+            "west": "woods2"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "mountain",
+        "locationFirst": "",
+        "locationLong": "A trail leads south into the woods. To the east is a dark cave.",
+        "locationShort": "You stand on a rough mountainside.",
+        "exits": {
+            "east": "tunnel1",
+            "south": "woods5"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "tent",
+        "locationFirst": "It's so good to have your own tent rather than sharing one with anybody. Your tent contains your sleeping bag, a change of clothes, a small backpack, and the satisfaction of knowing you can rough it in the great outdoors. Oh, you should probably grab your backpack before you go. And charge your phone.\n\nDarn. You forgot your phone charger. The outdoors are a nightmare.",
+        "locationLong": "You're in your tent.",
+        "locationShort": "You are in your tent.",
+        "exits": {
+            "south": "campsite"
+        },
+        "characters": "",
+        "objects": "",
+        "items": {
+          "matches": "",
+          "book": "",
+          "phone": ""
+          }
+    },
+    {
+        "name": "tree",
+        "locationFirst": "You climb into the branches of the tall cedar tree. It's easier than when you were a kid. Your arms and legs are longer. You're stronger.\n\nYou're also bigger now. Heavier. So it's really kind of a wash. Speaking of a wash, all this sap on your hands makes you wish you'd packed some wet-naps.",
+        "locationLong": "",
+        "locationShort": "You are in the branches of a tall cedar tree.",
+        "exits": {
+            "down": "woods4"
+        },
+        "characters": "octopus",
+        "objects": "",
+        "items": {
+          "lantern": ""
+          }
+    },
+    {
+        "name": "tunnel1",
+        "locationFirst": "This doesn't look so bad. You can step inside without having to bend over. No glowing red eyes stare at you from the shadows. There don't seem to be any spiders. You don't even hear anything go 'squish!' with each step. You can totally handle this.\n\nWait, no. It gets dark in here fast. You're only a few steps in and it's already really, really dark. You may be eaten by a grue.  \n",
+        "locationLong": "You are in a cave. It is dark here, although a faint light is visible to the west. You may be eaten by a grue.",
+        "locationShort": "You are in a dark cave.",
+        "exits": {
+            "east": "tunnel2",
+            "west": "mountain"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "tunnel2",
+        "locationFirst": "Ah. Now you've found the spiders. Or at least you've found their webs. They're all over your face. You frantically brush the webs away, then think about how there might be spiders on your shoulders and brush those. Then you vigorously brush your hair. Oh no! What if you brushed a spider out of your hair and onto your shoulders? You brush your shoulders again just to be sure!\n\nNothing bites you. At least, nothing you've felt yet. Hopefully nothing bit you with a slow-acting poison, either. It's even darker in here. You're pretty sure that's because of physics and not because of poison.\n",
+        "locationLong": "You are in a cave. It is dark here. You may be eaten by a grue.",
+        "locationShort": "You are in a dark cave.",
+        "exits": {
+            "east": "tunnel3",
+            "west": "tunnel1"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "tunnel3",
+        "locationFirst": "This tunnel may hold a black hole. It also holds a second passage. You can go off to the left, or you can continue on. Both of your options are dark, of course. It's hard to tell which one is darker. They are both the darkest darkness.",
+        "locationLong": "You are in a cave. It is dark here. You may be eaten by a grue.",
+        "locationShort": "You are in a dark cave.",
+        "exits": {
+            "north": "tunnel4",
+            "west": "tunnel2"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "tunnel4",
+        "locationFirst": "You already feel better about this choice. Not because it's any brighter. It isn't. But at no point do you lose anything important like the floor or your sense of direction. Even in the darkness, you remember how far you've gone and you know you're facing north. There's probably a merit badge for this.\n\nThere's also light at the end of this tunnel! You're sure it's not an hallucination. Or a trap. Okay, pretty sure. Reasonably sure.\n",
+        "locationLong": "You are in a cave. It is dark here. You may be eaten by a grue.",
+        "locationShort": "You are in a dark cave.",
+        "exits": {
+            "north": "tunnel5",
+            "south": "tunnel3"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "tunnel5",
+        "locationFirst": "",
+        "locationLong": "You are in a cave. It is dark here. You may be eaten by a grue.",
+        "locationShort": "You are in a dark cave.",
+        "exits": {
+            "north": "valley",
+            "south": "tunnel4"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "valley",
+        "locationFirst": "The light grows from dim to welcoming, and from welcoming to bright. It takes your eyes a moment to adjust. A valley comes into focus, filled with lush green trees and singing birds. Squirrels. Raccoons. Forest stuff. Bigfoot.\n\nHoly cow! THAT'S REALLY BIGFOOT!\n",
+        "locationLong": "To the south is a dark cave.",
+        "locationShort": "You are in a secluded mountain valley.",
+        "exits": {
+            "south": "tunnel5"
+        },
+        "characters": "bigfoot",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "woods1",
+        "locationFirst": "",
+        "locationLong": "Trails lead north, east, and west.",
+        "locationShort": "You are in the woods.",
+        "exits": {
+            "north": "woods5",
+            "east": "woods2",
+            "west": "campsite"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "woods2",
+        "locationFirst": "At some point, a tree fell, leaving something of a clearing in the forest. A huge mass of blackberries have grown up and around the stump on the west end of the clearing. You hear the buzzing of bees as they bumble around in the warm sunlight streaming through the broken canopy. A walking stick is tangled in the brambles. A glint of water can be seen through the trees to the north. Trails lead south and west.",
+        "locationLong": "At some point, a tree fell, leaving something of a clearing in the forest. You hear the buzzing of bees as they bumble around in the warm sunlight streaming through the broken canopy. A glint of water can be seen through the trees to the north. Trails lead south and west.",
+        "locationShort": "You are in the woods.",
+        "exits": {
+            "north": "lakeshore",
+            "south": "woods3",
+            "west": "woods1"
+        },
+        "characters": "",
+        "objects": [
+
+            "brambles", "bees", "sunlight", "stump", "water"
+        ],
+        "items": {
+          "walking stick": ""
+          }
+    },
+    {
+        "name": "woods3",
+        "locationFirst": "",
+        "locationLong": "The scent of bacon is wafting from the south. Trails lead north, east, and west through the woods.",
+        "locationShort": "You are in the woods.",
+        "exits": {
+            "north": "woods2",
+            "east": "woods4",
+            "south": "dan",
+            "west": "campsite"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "woods4",
+        "locationFirst": "A huge cedar tree dominates one side of this part of the forest.",
+        "locationLong": "Something is rustling in the tree above you. Trails lead south and west.",
+        "locationShort": "You are in the woods.",
+        "exits": {
+            "up": "tree",
+            "south": "dan",
+            "west": "woods3"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    },
+    {
+        "name": "woods5",
+        "locationFirst": "",
+        "locationLong": "A glint of water can be seen through the trees to the east. There seems to be a clearing to the north. A trail leads south.",
+        "locationShort": "You are in the woods.",
+        "exits": {
+            "north": "mountain",
+            "east": "lakeshore",
+            "south": "woods1"
+        },
+        "characters": "",
+        "objects": "",
+        "items": ""
+    }
+
+]
